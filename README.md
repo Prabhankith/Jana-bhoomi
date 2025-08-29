@@ -14,6 +14,10 @@ Janabhoomi is a **Streamlit-based diary application** where users can:
 - 💬 **AI Chatbot Tab**: Ask questions and interact with a Dify-powered chatbot.
 - 🌐 **Corpus Logger**: Collect public entries for research.
 - 🗄️ **Database Handlers**: Manage saved entries.
+- ## Launch the App  
+
+[Click here to launch Janabhoomi](https://jana-bhoomi-en4tbx2wmwrtebqwjzvqyb.streamlit.app/)
+
 
 ---
 
