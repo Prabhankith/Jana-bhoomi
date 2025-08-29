@@ -1,8 +1,13 @@
 from pymongo import MongoClient
 from datetime import datetime
+import os
 
-client = MongoClient("mongodb://localhost:27017")
-db = client["janabhoomi"]
+# Use Streamlit secrets if available, else fall back to env vars, else localhost
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+DB_NAME = os.getenv("DB_NAME", "janabhoomi")
+
+client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000)
+db = client[DB_NAME]
 collection = db["entries"]
 
 def save_entry(text, privacy):
