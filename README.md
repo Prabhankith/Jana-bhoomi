@@ -19,14 +19,23 @@ Janabhoomi is a **Streamlit-based diary application** where users can:
 
 ## 📂 Project Structure
 janabhoomi_project/
+
 │── app.py # Main Streamlit app
+
 │── requirements.txt # Python dependencies
+
 │── .gitignore # Ignore secrets, env, cache
+
 │── corpus/ # Stores diary entries (corpus)
+
 │── prompts/ # Daily prompts for diaries
+
 │── handlers/ # Handlers for ASR, DB, Chatbot, etc.
+
 │ ├── asr_handler.py
+
 │ ├── db_handler.py
+
 │ └── chatbot_handler.py
 
 
