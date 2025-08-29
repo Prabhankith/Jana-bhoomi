@@ -1,0 +1,23 @@
+# Compiled files
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Streamlit cache
+.streamlit/
+
+# Logs / temp files
+*.log
+*.tmp
+
+# Local corpus data (do not upload private data)
+corpus/corpus_entries.csv
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
